@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Resale HDB - How much is your HDB flat valued?</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h1>Resale HDB</h1>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Serach Start ***** -->
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword"
+                  onkeypress="handle" />
+                <i class="fa fa-search"></i>
+              </form>
+            </div>
+            <!-- ***** Serach Start ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#Introduction">Introduction</a></li>
+              <li class="scroll-to-section"><a href="#R·Shiny">R·Shiny</a></li>
+              <li class="scroll-to-section"><a href="#Poster">Poster</a></li>
+              <li class="scroll-to-section"><a href="https://isss608-vaa-project-group7.netlify.app/">Prototype</a></li>
+              <li class="scroll-to-section"><a href="#team">Team</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item item-1">
+              <div class="header-text">
+                <span class="category">ISSS608-Visual Analytics and Applications-Project</span>
+                <h2>How Much is Your HDB Flat Valued ?</h2>
+                <p>This project is focused on exploring influential factors on HDB resale prices and predicting price
+                  trends.</p>
+              </div>
+            </div>
+            <div class="item item-2">
+              <div class="header-text">
+                <span class="category">Background</span>
+                <p>Singapore's Housing and Development Board (HDB) is a government agency responsible for providing affordable public housing to Singaporeans. About 80% of Singapore's resident population lives in HDB flats, making the HDB resale market a significant component of the country's housing landscape.</p>
+                <p>Analyzing the HDB resale market provides valuable insights for policymakers, buyers, and sellers in making informed decisions and understanding the dynamics of Singapore's public housing landscape.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="services section" id="services">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>ABOUT THIS PROJECT</h6>
+            <h2>Introduction</h2>
+            <p>In this project, we will focus on analyzing the resale prices of Singapore Housing and Development Board (HDB) flats. We will perform exploratory data analysis (EDA) and confirmatory data analysis, presenting the findings in an interactive Shiny app. Additionally, we will build a predictive model utilizing relevant factors to help customers estimate the resale price of HDB flats based on their preferences.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/analysis.png" alt="online degrees">
+            </div>
+            <div class="main-content">
+              <h4>Univariate Analysis</h4>
+              <p>univariate plots help understand the distribution, frequency, and range of values for each variable. This analysis can provide insights into the characteristics of the HDB flats in the dataset and help identify any outliers or unusual patterns.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/interactive.png" alt="short courses">
+            </div>
+            <div class="main-content">
+              <h4>Bivariate and Correlation Analysis</h4>
+              <p>The correlation analysis provides valuable information about the relationships between variables and can guide feature selection and model building decisions in the HDB resale price prediction project. Variables with strong correlations can be considered as potential predictors in the predictive model.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/modelling.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>Predictive Modelling</h4>
+              <p>The prediction model provides an interactive interface for users to easily leverage a real estate price prediction model. By translating user-inputted property parameters into estimated resale prices, it allows for convenient and quick property valuation estimates that could help inform a variety of real estate decisions and analysis.</p>
+              <div class="main-button">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <section class="section courses" id="courses">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>LET'S EXPLORE</h6>
+            <h2>Shiny App</h2>
+          </div>
+        </div>
+      </div>
+      <ul class="event_filter">
+        <li>
+          <a class="is_active" href="#!" data-filter="*">Show All</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".design">EDA</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".development">CDA</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".wordpress">Prediction Model</a>
+        </li>
+      </ul>
+      <div class="row event_box">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/univariate.png" alt=""></a>
+              <span class="category">EDA</span>
+              <span class="price">
+                <h6></h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author"></span>
+              <h4>Univariate Data Analysis</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/bivariate.png" alt=""></a>
+              <span class="category">CDA</span>
+              <span class="price">
+                <h6></h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author"></span>
+              <h4>Bivariate Data Analysis</h4>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/correlation.png" alt=""></a>
+              <span class="category">CDA</span>
+              <span class="price">
+                <h6></h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author"></span>
+              <h4>Correlation Matrix</h4>
+            </div>
+          </div>
+        </div>
+        
+
+        
+
+        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/prediction.png" alt=""></a>
+              <span class="category">Prediction Model</span>
+              <span class="price">
+                <h6></h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author"></span>
+              <h4>Resale-Price Prediction</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="team section" id="team">
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>THIS IS OUR TEAM</h6>
+            <h2>Team Member</h2>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6></h6>
+            <h2></h2>
+
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member text-center">
+            <div class="main-content">
+              <img src="assets/images/member-01.jpg" alt="" class="img-fluid">
+              <h4>GAO Ya</h4>
+              <span class="category">MITB'23 AT</span>
+              <p>description about me</p>
+              <ul class="social-icons">
+                <!--<li><a href="#"><i class="fab fa-facebook"></i></a></li>  -->
+                <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>  -->
+                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member text-center">
+            <div class="main-content">
+              <img src="assets/images/member-02.jpg" alt="" class="img-fluid">
+              <h4>WANG Yaling</h4>
+              <span class="category">MITB'23 AT</span>
+              <p>description about me</p>
+              <ul class="social-icons">
+                <!--<li><a href="#"><i class="fab fa-facebook"></i></a></li>  -->
+                <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li>  -->
+                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  align-self-center">
+          <div class="section-heading">
+            <h6>Contact Us</h6>
+            <h2>If you have any feedback, drop us a note!</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-us-content">
+            <form id="contact-form" action="" method="post">
+              <div class="row">
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..."
+                      required="">
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-lg-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="orange-button">Send Message Now</button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>Copyright © 2024. All rights reserved. &nbsp;&nbsp;&nbsp;</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
